@@ -1,0 +1,78 @@
+<h1>My first Angular app</h1>
+
+<!--Module 20-->
+
+<p> {{now | date}}</p>
+
+<!--Module 19-->
+<!--<ul>-->
+<!--  <li *ngFor="let n of arr; let i = index">{{ i }} - {{ n }}</li>-->
+<!--</ul>-->
+
+<!--<ul>-->
+<!--  <li *ngFor="let child of objs">-->
+<!--    <p>Child: {{ child.name }}, {{ child.age }}-->
+<!--    <ul>-->
+<!--    <li *ngFor="let subj of child.marks">-->
+<!--        <p>{{subj.subj}} - {{subj.mark}}</p>-->
+<!--  </ul>-->
+<!--  </li>-->
+<!--</ul>-->
+
+<!--Module 18-->
+<!--<button (click)="bgToggle=!bgToggle">Toggle</button>-->
+<!--<div [ngSwitch]="bgToggle">-->
+<!--  <p *ngSwitchCase="true" class="yellow">A</p>-->
+<!--  <p *ngSwitchCase="false" class="blue">B</p>-->
+<!--  <p *ngSwitchDefault class="yellow">C</p>-->
+<!--</div>-->
+
+<!--Module 17-->
+<!--<button (click)="bgToggle=!bgToggle">Toggle</button>-->
+<!--<p *ngIf="bgToggle" class="yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, rerum.</p>-->
+<!--<p *ngIf="!bgToggle" class="blue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, rerum.</p>-->
+
+<!--<p *ngIf="bgToggle; else blue" class="yellow">blue</p>-->
+<!--<ng-template #blue>-->
+<!--<p class="blue">yellow</p>-->
+<!--</ng-template>-->
+
+<!--Module 16-->
+<!--<button (click)="bgToggle=!bgToggle">Toggle</button>-->
+<!--<p [ngClass]="{-->
+<!--yellow: bgToggle,-->
+<!--blue: !bgToggle}"-->
+<!--&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, quisquam.-->
+<!--</p>-->
+<!--<p-->
+<!--  [class.blue]="bgToggle"-->
+<!--  [class.yellow]="!bgToggle"-->
+<!--&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus corporis culpa eveniet, magnam quae similique.</p>-->
+
+<!--Module 15-->
+<!--<button (click)="bgToggle=!bgToggle">Toggle</button>-->
+<!--<div [ngStyle]="{-->
+<!--width: '200px',-->
+<!--height:'200px',-->
+<!--border: '1px solid #cccccc',-->
+<!--borderRadius: '5px',-->
+<!--backgroundColor: bgToggle? 'yellow': 'blue'-->
+<!--}"></div>-->
+
+<!--Module 14-->
+<!--<input type="text" [(ngModel)]="title">-->
+<!--<p>{{title}}</p>-->
+
+<!--Module 11-13-->
+<!--<img [src]="img" alt="">-->
+<!--<input-->
+<!--  type="text"-->
+<!--  (keyup.enter)="onInput($event)"-->
+<!--  (blur)="onBlur(myInput.value)"-->
+<!--  #myInput-->
+<!--&gt;-->
+<!--<p><strong>{{inputValue}}</strong></p>-->
+<!--<button (click)="onClick()">Click me!</button>-->
+<!--<app-post></app-post>-->
+<!--<app-post></app-post>-->
+<!--<app-name></app-name>-->
